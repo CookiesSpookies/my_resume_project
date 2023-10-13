@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dekko&family=Libre+Baskerville&family=Roboto:wght@400;700&display=swap');
+
+/* 
+COLOR PALLETE
+
+dark blue : #132043 
+blue : #1F4172
+dark pink : #F1B4BB
+light pink : #FDF0F0
+*/
+
+footer,
+body {
+  font-family: 'Dekko', cursive;
+  color: #fdf0f0;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  margin: auto 10px;
+  color: #fdf0f0;
+}
+
+a:hover {
+  color: #ded2ff;
+}
+
+hr {
+  border: dotted #000000 8px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+.contact-me,
+.footer,
+.title {
+  background-image: url(./assets/bg.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f1b4bb;
+}
+
+.resume {
+  background-color: #7e5b8c;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  border-left: 1px solid #f1b4bb;
+  position: relative;
+}
+
+.resume .resume-item::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #f1b4bb;
+  border: 2px solid #f1b4bb;
+}
+
+@media (min-width: 768px) {
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
+
+.project {
+  background-color: #f1b4bb;
+  color: #431854;
+}
+
+.featurette {
+  padding-top: 100px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding: 20px 0;
+}
